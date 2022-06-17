@@ -18,16 +18,16 @@ header {
 header a {
   text-decoration: none;
   color: white;
-  margin-left: 100px;
+  margin: 100px;
 }
 
-ul li{
+ul li {
   text-transform: uppercase;
   display: inline;
   list-style-type: none;
 }
 
-.flex-container{
+.flex-container {
   margin-top: 150px;
 }
 
@@ -35,7 +35,6 @@ ul li{
   display: flex;
   width: 60%;
   margin: 0 auto;
-  height: 100%;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -110,20 +109,10 @@ img {
   background-color: white;
 }
 
-.sedans button:hover {
-  background-color: hsl(31, 77%, 52%);
-  color: hsl(0, 0%, 100%);
-  border: 2px solid white;
-}
-
-.suvs button:hover {
-  background-color: hsl(184, 100%, 22%);
-  color: white;
-  border: 2px solid white;
-}
-
+.sedans button:hover,
+.suvs button:hover,
 .luxury button:hover {
-  background-color: hsl(179, 100%, 13%);
+  background-color: transparent;
   color: white;
   border: 2px solid white;
 }
@@ -172,7 +161,6 @@ img {
     margin-bottom: 15px;
   }
 }
-
 
 /* .blink {
   animation: blink 9s infinite;
